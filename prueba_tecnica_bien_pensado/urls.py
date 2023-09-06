@@ -24,4 +24,9 @@ urlpatterns = [
     path('crear_bodega/', views.crear_bodega, name='crear_bodega'),
     path('listar_productos_total_descendente/', views.listar_productos_total_descendente,
          name='listar_productos_total_descendente'),
+    path('agregar_producto/', views.agregar_producto, name='agregar_producto'),
+    path('insertar_actualizar_inventario/', views.insertar_actualizar_inventario,
+         name='insertar_actualizar_inventario'),
+    path('trasladar_producto/', views.trasladar_producto,
+         name='trasladar_producto'),
 ]
